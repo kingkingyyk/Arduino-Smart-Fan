@@ -17,6 +17,8 @@ An AC fan controller with temperature sensing + OLED display
  - TARGET_TEMPERATURE -> The temperature you wish to achieve
  - TARGET_TEMPERATURE_MIN -> The temperature that is low enough to shut off the fan directly (bypass TARGET_SUSTAIN_TIME)
  - TARGET_TEMPERATURE_MAX -> The temperature that is high enough to turn on the fan directly (bypass TARGET_SUSTAIN_TIME)
+ - You can illustrate this as a finite state machine :
+ ![](https://raw.githubusercontent.com/kingkingyyk/Arduino-Smart-Fan/master/state-diagram.png)
 
 **Bonus :**
  - Adafruit Watchdog to auto restart when the Arduino hangs at somewhere
