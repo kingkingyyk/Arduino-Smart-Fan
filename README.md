@@ -1,4 +1,5 @@
 ***Smart Fan @ Arduino***
+
 An AC fan controller with temperature sensing + OLED display
 
 
@@ -6,8 +7,8 @@ An AC fan controller with temperature sensing + OLED display
 
  - DFRduino Nano
  - LM35 Temperature Sensor
- - Grove Relay SSD1306 128x64
- - 0.96" OLED screen
+ - Grove Relay
+ - SSD1306 128x64 0.96" OLED screen
 
 
 **Working Mechanism :**
